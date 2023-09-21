@@ -31,8 +31,6 @@ document.addEventListener('dblclick', function (event) {
         const column = (clicked.id) % 6 === 0 ? 6 : (clicked.id) % 6
         for (let i = 0; i < paintList.length; i++) {
             paintList[i] = Number((clicked.id)) + (paintList[i] - column)
-        }
-        for (let i = 0; i < paintList.length; i++) {
             let paint = document.getElementById(`${paintList[i]}`)
             paint.style.backgroundColor = `${document.getElementById("chosen-color").value}`
         }
