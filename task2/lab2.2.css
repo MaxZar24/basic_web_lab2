@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    margin: 100px 0 0 0;
+}
+
+td {
+    width: 40px;
+    height: 40px;
+    border: solid 1px black;
+    text-align: center;
+}
+
+input {
+    width: 252px;
+}
